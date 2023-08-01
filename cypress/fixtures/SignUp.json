@@ -1,0 +1,11 @@
+{
+  "FisrtName": "Cristiano",
+  "LastName": "Ronaldo",
+  "Valid_email": "CristianoRonaldo12@mail.com",
+  "Valid_password": "CristianoRonaldo07",
+  "Confirm_password": "CristianoRonaldo07",
+  "Invalid_email": "Cristiano@mail.com",
+  "Invalid_password": "Cristianoswess",
+  "New_Email": "ronaldo07@mail.com",
+  "New_Password": "Ronaldo07"
+}

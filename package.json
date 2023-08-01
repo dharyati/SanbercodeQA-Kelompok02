@@ -1,0 +1,21 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "finalproject",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-run-SignUp": "npx cypress run --browser chrome --spec 'cypress/e2e/SignUp.cy.js'",
+    "cypress-run-Login": "npx cypress run --browser chrome --spec 'cypress/e2e/Login.cy.js'",
+    "cypress-run-addToChart": "npx cypress run --browser chrome --spec 'cypress/e2e/addTochart.cy.js'",
+    "cypress-run-checkout": "npx cypress run --browser chrome --spec 'cypress/e2e/Checkout.cy.js'"
+  },
+  "author": "faisal",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.13.0",
+    "mocha": "^10.2.0",
+    "npx": "^10.2.2"
+  }
+}
