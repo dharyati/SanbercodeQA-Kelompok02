@@ -30,7 +30,7 @@ describe("Test website Magento", () => {
   it("Login_Emailkosong", () => {
     cy.get(LoginPage.signInBtn).click();
     cy.get(LoginPage.email);
-    cy.get(LoginPage.password).type(inputan.Invalid_password);
+    cy.get(LoginPage.password).type(inputan.Valid_password);
     cy.get(LoginPage.BtnSignIn).click();
     cy.get(LoginPage.fieldEmailKosong).should("be.visible");
   });

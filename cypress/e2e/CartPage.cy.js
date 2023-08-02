@@ -54,7 +54,11 @@ describe("Test website Magento", () => {
     cy.get(AddtoChart.BtnUpdate).click({ force: true });
     cy.get(AddtoChart.InfoUpdateFailde).should("be.visible");
   });
-  it("Add_To_Cart", () => {
+  it("delete_To_Cart", () => {
+    cy.get(LoginPage.signInBtn).click();
+    cy.get(LoginPage.email).type(inputan.New_Email);
+    cy.get(LoginPage.password).type(inputan.New_Password);
+    cy.get(LoginPage.BtnSignIn).click();
     cy.get(AddtoChart.shoppePantsBtn).click();
     cy.get(AddtoChart.product).click();
     cy.get(AddtoChart.size).click();
